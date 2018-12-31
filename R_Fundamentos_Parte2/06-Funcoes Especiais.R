@@ -140,4 +140,53 @@ antes %>%
 
 # Operadores de atribuicao
 
+vec1 = 1:4
+vec2 <- 1:4
+
+class(vec1)
+class(vec2)
+
+typeof(vec1)
+typeof(vec2)
+
+
+mean(x = 1:10)
+x
+
+mean(x <- 1:10)
+x
+
+
+# Criacao de objetos
+
+vetor1 = 1:4 # integer
+vetor2 = c(1:4) # integer
+vetor3 = c(1,2,3,4) # double/numeric
+
+vetor1
+vetor2
+vetor3
+
+class(vetor1)
+class(vetor2)
+class(vetor3)
+typeof(vetor1)
+typeof(vetor2)
+typeof(vetor3)
+
+matriz1 = matrix(1:4, nr = 2) # integer
+matriz2 = matrix(c(1:4), nr = 2) # integer
+matriz3 = matrix(c(1,2,3,4), nr = 2) # double
+
+matriz1
+matriz2
+matriz3
+
+class(matriz1)
+class(matriz2)
+class(matriz3)
+typeof(matriz1)
+typeof(matriz2)
+typeof(matriz3)
+
 
